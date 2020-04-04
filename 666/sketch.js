@@ -8,4 +8,5 @@ function draw() {
   var nsize = width/8+cos(mouseY*PI/180)*width/16;
   fill(cx,cy,150,50);
   circle(mouseX,mouseY,nsize);
+  console.log(cx);
 }
